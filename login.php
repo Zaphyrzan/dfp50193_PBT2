@@ -14,6 +14,7 @@ if ($username == 'admin'){
     }
 } else {
     fail();
+    header('location: index.php');
 }
 
 
@@ -21,7 +22,7 @@ function fail(){
     ?>
     <script>
         alert('Wrong Username or Password');
-        header('location: index.php');
+        window.location = '.';
     </script>
     <?php
 }

@@ -30,19 +30,19 @@
             <tr>
             <td><label for="name">Current Password:</label></td>
             <td>
-                <input type="text" id="currentpass" name="currentpass" value="">
+                <input type="password" id="currentpass" name="currentpass" value="">
             </td>
             </tr>
             <tr>
             <td><label for="name">New Password:</label></td>
             <td>
-                <input type="text" id="newpass" name="newpass" value="">
+                <input type="password" id="newpass" name="newpass" value="">
             </td>
             </tr>
             <tr>
             <td><label for="name">Confirm New Password:</label></td>
             <td>
-                <input type="text" id="confirmpass" name="confirmpass" value="">
+                <input type="password" id="confirmpass" name="confirmpass" value="">
             </td>
             </tr>
             <tr>

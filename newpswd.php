@@ -11,6 +11,19 @@ if (password_verify($currentpass, $pswd)){
     $myfile = fopen("pswd.txt", "w") or die("Unable to open file!");
     fwrite($myfile, $newpass);    
     fclose($myfile);
+    header('location: index.php');
+
+}
+else {
+    fail();
 }
 
-header('location: index.php');
+function fail(){
+    ?>
+    <script>
+        alert('Password did not match with current password');
+        window.location = 'password.php';
+    </script>
+    <?php
+}
+?>
