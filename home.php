@@ -29,7 +29,46 @@
                 DDT5D
             </td>
         </tr>
+        <td></td>
+        <tr>
+            <td><label for="">Name:</label></td>
+            <td>
+                Muhammad Anas Bin A.Halim
+            </td>
+        </tr>
+        <tr>
+            <td><label for="">Matric Number:</label></td>
+            <td>
+                18DDT19F1088
+            </td>
+        </tr>
+        <tr>
+            <td><label for="">Class:</label></td>
+            <td>
+                DDT5D
+            </td>
+        </tr>
+        <td></td>
+        <tr>
+            <td><label for="">Name:</label></td>
+            <td>
+                Muhammad Khairul Zakwan Bin Mohd Nasir
+            </td>
+        </tr>
+        <tr>
+            <td><label for="">Matric Number:</label></td>
+            <td>
+                18DDT19F1062
+            </td>
+        </tr>
+        <tr>
+            <td><label for="">Class:</label></td>
+            <td>
+                DDT5D
+            </td>
+        </tr>
     </table>
+    <p></p>
     <a href="password.php">Change Password</a>
 </body>
 

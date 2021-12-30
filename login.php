@@ -14,7 +14,6 @@ if ($username == 'admin'){
     }
 } else {
     fail();
-    header('location: index.php');
 }
 
 
